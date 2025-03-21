@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+/************* Home section *************/
+.home-section{
+    /* add black background image infront of original background image to increase the opacity */
+    background-image: url('../images/opacity-picture.png') , url('../images/home-section-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    width: 100%;
+    height: 800px;
+    
+}
+
+.bakery-photo{
+    display: inline-block;
+    width: 12%;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+.nav-bar{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0;
+    width: 35%;
+    position: absolute;
+    top: 4%;
+    right: 10%;
+}
+
+.nav-item{
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 4%;
+}
+
+.nav-item a{
+    color: white;
+    font-size: large;
+}
+
+.home-section-text{
+    display: block;
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.home-section-text h1{
+    font-size: 4em;
+}
+
+.home-section-text h2{
+    font-size: 1.5em;
+}
+
+.home-section-button1{
+    padding: 20px;
+    background-color: #8E7754;
+    margin: 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home-section-button2{
+    padding: 20px;
+    background-color: transparent;
+    margin: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/********* who we are section **********/
+
+.who-we-are-section {
+  background-color: #ffffff;
+}
+
+.who-we-are-photo{
+    display: inline-block;
+    width: 40%;
+    padding-right: 5%;
+    padding-left: 8%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    vertical-align: middle;
+}
+
+.who-we-are-text-block{
+    display: inline-block;
+    width:42%;
+    vertical-align: middle;
+}
+
+.who-we-are-text-header{
+    display: inline-block;
+    font-size: xx-large;
+}
+
+.icon-text{
+    display: block;
+}
+
+.icon-text p{
+    display: inline-block;
+}
+
+.icon-text img{
+    display: inline-block;
+    width: 8%;
+    padding-right: 2%;
+    vertical-align: middle;
+}
+
+
+/************ Our Location **************/
+
+.our-location-section{
+    background-color: #f8f8f8;
+}
+
+.our-location-text-block{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    padding-left: 8%;
+}
+
+.our-loction-text-header{
+    display: inline-block;
+    font-size: xx-large;
+}
+
+.our-location-photo{
+    display: inline-block;
+    width: 40%;
+    padding-left: 4%;
+    padding-right: 3%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    vertical-align: middle;
+}
+
+
+/************ Our Baking **************/
+
+.our-baking-section{
+    background-color: #ffffff;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+}
+
+.our-baking-section h2{
+    font-size: xx-large;
+    padding-top: 3%;
+}
+
+.our-baking-block{
+    float: left;
+    width: 31%;
+    margin: 1%;
+    background-color: white;
+}
+
+.our-baking-block h3{
+    font-size: x-large;
+    padding-top: 2%;
+}
+
+.our-baking-block img{
+    width: 100%;
+}
+
+
+/************ Contact Information **************/
+
+.contact-info-section{
+    background-color: #f8f8f8;
+    padding-left: 9%;
+    padding-right: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contact-info-section h2{
+    font-size: xx-large;
+}
+
+.contact-info-block{
+    float: left;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.map{
+    float: left;
+    width: 40%;
+    padding-left: 15%;
+    vertical-align: middle;
+}
+
+/************ About Us  **************/
+
+.about-us-section{
+    background-color: #403D38;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.about-us-block{
+    float: left;
+    width: 23%;
+    margin: 1%;
+}
+
+.about-us-block hr{
+    border: none;
+    height: 0.1px;
+    background-color: #949494;
+}
+
+.about-us-block h3{
+    color: white;
+}
+
+.about-us-block p{
+    color: #949494;
+}
+
+
+.about-us-icon-text img{
+    float: left;
+    width: 8%;
+    padding-right: 2%;
+}
+
+.about-us-icon-text a{
+    color: #949494;
+    text-decoration: none;
+}
+
+/************ Footer **************/
+
+footer{
+    background-color: #353330;
+    color: #949494;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-icons{
+    width: 12%;
+}
+
